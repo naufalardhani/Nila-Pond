@@ -3,4 +3,4 @@
 
 #### How to run?
 
-`sh $ yarn develop`
+```sh $ yarn develop```

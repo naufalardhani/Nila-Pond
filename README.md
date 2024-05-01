@@ -3,4 +3,7 @@
 
 #### How to run?
 
-```sh $ yarn develop```
+```sh 
+ardhani@mac $ cd Nila-Pond/nilapond_backend
+ardhani@mac $ yarn develop
+```

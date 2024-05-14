@@ -19,6 +19,20 @@ Nilapond Developer Team adalah sebuah tim pengembang yang terdiri dari 6 individ
 
 - **[Muhammad Naufal Ardhani](https://instagram.com/naufalardhani_/)** - Backend Developer and Offensive Security.
 
+## How to install?
 
+```
+sh
+$ git clone https://github.com/naufalardhani/Nila-Pond.git
+```
 
+```
+sh
+$ cd Nila-Pond && composer install
+```
+
+```
+sh
+$ php artisan serve
+```
 

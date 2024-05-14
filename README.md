@@ -1,4 +1,4 @@
-<p align="center"><a href="https://nilapond.com" target="_blank"><img src="src/logo.png" width="100" alt="Nilapond Logo"></a></p>
+<p align="center"><a href="https://nilapond.com" target="_blank"><img src="src/logo.png" width="50" alt="Nilapond Logo"></a></p>
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>

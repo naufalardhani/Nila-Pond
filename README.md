@@ -17,23 +17,8 @@ Nilapond adalah platform berbasis web yang didedikasikan untuk mendukung bisnis 
 
 Nilapond Developer Team adalah sebuah tim pengembang yang terdiri dari 6 individu berbakat dan berdedikasi tinggi dalam dunia teknologi dan pengembangan perangkat lunak. Dengan berbagai keahlian yang meliputi pengembangan frontend, backend, desain UI/UX, manajemen proyek, dan security, tim ini siap menghadapi berbagai tantangan dan menghasilkan solusi inovatif untuk memenuhi kebutuhan klien.
 
-### Premium Partners
+- **[Muhammad Naufal Ardhani](https://instagram.com/naufalardhani_/)** - Backend Developer and Offensive Security.
 
-- **[Muhammad Naufal Ardhani](https://instagram.com/naufalardhani_/)** - Backend Developer and Offensive Security
-- **[Tighten Co.](https://tighten.co)**
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

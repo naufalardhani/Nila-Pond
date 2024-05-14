@@ -30,6 +30,10 @@ $ cd Nila-Pond && composer install
 ```
 
 ```sh
+$ php artisan migrate
+```
+
+```sh
 $ php artisan serve
 ```
 

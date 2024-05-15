@@ -12,7 +12,11 @@ class AdminController extends Controller
 {
     public function index() {
         $total_product = Products::count();
-        return view('admin/index', compact('total_product'));
+        $total_contact = Contact::count();
+        
+        $contacts = Contact::latest()->paginate();
+
+        return view('admin/index', compact('total_product', 'total_contact', 'contacts'));
     }
 
     public function add_product() {

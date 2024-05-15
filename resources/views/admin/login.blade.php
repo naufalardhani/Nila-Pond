@@ -20,6 +20,12 @@
         <div class="col-md-5 col-sm-12 mx-auto">
             <div class="card pt-4">
                 <div class="card-body">
+                    @if(session('error'))
+                        <div class="alert alert-danger">{{ session('error') }}</div>
+                    @endif
+                    @if(session('success'))
+                        <div class="alert alert-success">{{ session('success') }}</div>
+                    @endif
                     <div class="text-center mb-5">
                         <img src="{{asset('assets/img/logo.png')}}" style="margin-left: 100px;" height="48" class='mb-4'>
                         <h3>Login</h3>

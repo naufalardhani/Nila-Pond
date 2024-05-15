@@ -32,7 +32,7 @@
                                 </div>
                                 <div class="col-md-6 col-12">
                                     <div class="col mb-1">
-                                        <label class="mb-2" for="productPrice">Price</label> <br />
+                                        <label class="mb-2" for="productPrice">Price (per kilogram)</label> <br />
                                         <div class="input-group mb-3">
                                             <span class="input-group-text">Rp</span>
                                             <input type="text" class="form-control" id="productPrice" name="price" aria-label="Dollar amount (with dot and two decimal places)">

@@ -10,21 +10,21 @@
                 
             
                 
-                <li class="sidebar-item active ">
+                <li class="sidebar-item {{ Route::currentRouteName() === 'admin_index' ? 'active' : '' }}">
                     <a href="{{ route('admin_index') }}" class='sidebar-link'>
                         <i data-feather="home" width="20"></i> 
                         <span>Dashboard</span>
                     </a>          
                 </li>
 
-                <li class="sidebar-item ">
+                <li class="sidebar-item {{ Route::currentRouteName() === 'add_product' ? 'active' : '' }}">
                     <a href="{{ route('add_product') }}" class='sidebar-link'>
                         <i data-feather="file-plus" width="20"></i> 
                         <span>Add Products</span>
                     </a>          
                 </li>
 
-                <li class="sidebar-item ">
+                <li class="sidebar-item {{ Route::currentRouteName() === 'list_product' ? 'active' : '' }}">
                     <a href="{{ route('list_product') }}" class='sidebar-link'>
                         <i data-feather="file-text" width="20"></i> 
                         <span>List Products</span>
@@ -38,7 +38,7 @@
                     </a>          
                 </li>
 
-                <li class="sidebar-item ">
+                <li class="sidebar-item {{ Route::currentRouteName() === 'list_contact' ? 'active' : '' }}">
                     <a href="{{ route('list_contact') }}" class='sidebar-link'>
                         <i data-feather="archive" width="20"></i> 
                         <span>Contact</span>

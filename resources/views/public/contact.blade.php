@@ -197,16 +197,17 @@
         </form>
         </div>
     </div>
-    <div class="map pt-80">
-        <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.30010741584!2d106.7625379!3d-6.6095826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5732faee655%3A0x65af5dc97506568c!2sJl.%20Pinus%203%2C%20Pagelaran%2C%20Kec.%20Ciomas%2C%20Kabupaten%20Bogor%2C%20Jawa%20Barat%2016610!5e0!3m2!1sen!2sid!4v1709720523274!5m2!1sen!2sid"
-        width="600"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+        <div class="map" id="map" style="padding-top: 550px; margin-top: 40px;"></div>
+        <!-- <div class="map pt-80">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.30010741584!2d106.7625379!3d-6.6095826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5732faee655%3A0x65af5dc97506568c!2sJl.%20Pinus%203%2C%20Pagelaran%2C%20Kec.%20Ciomas%2C%20Kabupaten%20Bogor%2C%20Jawa%20Barat%2016610!5e0!3m2!1sen!2sid!4v1709720523274!5m2!1sen!2sid"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> -->
     </div>
 </section>
 @endsection

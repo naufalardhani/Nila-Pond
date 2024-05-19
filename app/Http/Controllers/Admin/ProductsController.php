@@ -44,7 +44,7 @@ class ProductsController extends Controller
                 $file = $request->file('thumbnail');
                 $originalName = $file->getClientOriginalName();
                 $path = $file->store('public/thumbnails');
-
+                    
                 // Pastikan file berhasil disimpan
                 if (!$path) {
                     throw new \Exception('Failed to store thumbnail file.');
@@ -100,6 +100,11 @@ class ProductsController extends Controller
                 $file = $request->file('thumbnail');
                 $originalName = $file->getClientOriginalName();
                 $path = $file->store('public/thumbnails');
+                
+                // dd([
+                //     'originalName' => $originalName,
+                //     'file' => $file,
+                // ]);
 
                 // Pastikan file berhasil disimpan
                 if (!$path) {
@@ -113,6 +118,7 @@ class ProductsController extends Controller
                         Storage::delete($oldFilePath);
                     }
                 }
+                
 
                 $products->photo_url = str_replace('public', 'storage', $path);
                 $products->photo_name = $originalName; // Menyimpan nama file asli

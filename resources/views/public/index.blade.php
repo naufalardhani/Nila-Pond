@@ -12,8 +12,8 @@
                 prioritize quality and health."
               </h5>
               <div>
-                <a href="#" class="btn">Get Started</a>
-                <a href="#" class="btn two">find out more</a>
+                <a href="{{ route('product') }}" class="btn">Get Started</a>
+                <!-- <a href="#" class="btn two">find out more</a> -->
               </div>
             </div>
           </div>
@@ -135,6 +135,191 @@
                 We maintain quality standards from seed selection to maintenance
                 in cultivation.
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="propel-img">
+              <img src="assets/img/kolam.png" alt="propel-img" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="heading two">
+              <h6>SUSTAINABILITY IS OUR FOCUS</h6>
+              <h2>The Yard of the House was Transformed into a Nila Pond</h2>
+            </div>
+            <div class="propel-text">
+              <p>
+                Transforming the house yard into a nila pond utilizes available
+                space efficiently, providing an additional food source for the
+                family or community.
+              </p>
+              <div class="propel">
+                <div>
+                  <i
+                    ><img src="assets/img/propel-icon-1.png" alt="propel-icon"
+                  /></i>
+                </div>
+                <div>
+                  <h5>New Business Opportunities</h5>
+                  <p>
+                    Transforming the house yard into a nila pond opens up new
+                    business opportunities.
+                  </p>
+                </div>
+              </div>
+              <div class="propel">
+                <div>
+                  <i
+                    ><img src="assets/img/propel-icon-2.png" alt="propel-icon"
+                  /></i>
+                </div>
+                <div>
+                  <h5>Trusted and Reliable</h5>
+                  <p>
+                    With proper management, the tilapia pond can consistently
+                    produce a reliable source of protein.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="gap">
+      <div class="container">
+        <div class="trusted-by">
+          <h5>From the Pond to Your Dining Table</h5>
+          <div class="logodata owl-carousel owl-theme">
+            <div class="partner item">
+              <img alt="" src="assets/img/breding.png" />
+              <h6>Breeding</h6>
+            </div>
+            <div class="partner item">
+              <img alt="" src="assets/img/culvulation.png" />
+              <h6>Cultivation</h6>
+            </div>
+            <div class="partner item">
+              <img alt="" src="assets/img/harvest.png" />
+              <h6>Harvest</h6>
+            </div>
+            <div class="partner item">
+              <img alt="" src="assets/img/processing.png" />
+              <h6>Processing</h6>
+            </div>
+            <div class="partner item">
+              <img alt="" src="assets/img/rtu.png" />
+              <h6>Ready To Serve</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section
+      class="gap blog-section"
+      style="background-image: url(assets/img/background-1.png)">
+      <div class="container">
+        <div class="heading">
+          <img src="assets/img/heading-img.png" alt="heading-img" />
+          <h2>Popular on Youtube</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="blog img-hover">
+              <div class="blog-img">
+                <figure>
+                  <img src="assets/img/img1.png" alt="blog" />
+                </figure>
+              </div>
+              <h5>24<span>Jan,2024</span></h5>
+              <a
+                href="https://youtu.be/v-Syg1Ftdgw?si=RbT9VO-nIGekus8J"
+                target="_blank"
+                ><h4>Panen Parsial Ikan Nila Awal 2024</h4></a
+              >
+              <h6>by <b>Nandang Alik</b></h6>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="blog img-hover">
+              <div class="blog-img">
+                <figure>
+                  <img src="assets/img/img2.png" alt="blog" />
+                </figure>
+              </div>
+              <h5>23<span>Feb,2024</span></h5>
+              <a
+                href="https://youtu.be/Bf-2E7UtpW0?si=FRTTJFyS0VqoX1H_"
+                target="_blank"
+                ><h4>Menentukan Kolam Yang Akan di Panen</h4></a
+              >
+              <h6>by <b>Nandang Alik</b></h6>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="blog img-hover mb-0">
+              <div class="blog-img">
+                <figure>
+                  <img src="assets/img/img3.png" alt="blog" />
+                </figure>
+              </div>
+              <h5>03<span>Mar,2024</span></h5>
+              <a
+                href="https://youtu.be/0DS32_ATs3I?si=ZSo60xxgNwKV7SGI"
+                target="_blank"
+                ><h4>Apakah Kolom Bioflok Boros Pakan atau Tidak?</h4></a
+              >
+              <h6>by <b>Nandang Alik</b></h6>
+            </div>
+          </div>
+          <div class="button-center">
+            <a
+              href="https://www.youtube.com/@Tutorialmotivasiinspirasi"
+              target="_blank"
+              class="btn"
+              >View All Videos</a
+            >
+          </div>
+        </div>
+      </div>
+      <img src="assets/img/shaps.png" alt="dots-shaps" class="dots-shaps" />
+    </section>
+    <section class="gap">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="together">
+              <h2>Through Biofloc, Increase Harvest Productivity</h2>
+              <p>
+                Benefits and Advantages of the Biofloc System for Tilapia
+                Farming.
+              </p>
+              <ul class="list">
+                <li>
+                  <img src="assets/img/check.png" alt="check" />Formed from a
+                  collection of organic materials
+                </li>
+                <li>
+                  <img src="assets/img/check.png" alt="check" />Can stabilize
+                  the pH of nila biofloc pond water
+                </li>
+                <li>
+                  <img src="assets/img/check.png" alt="check" />Lowers ammonia
+                  levels in water
+                </li>
+              </ul>
+              <a href="#" class="btn">Get in Touch</a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="together-img">
+              <img src="assets/img/587.png" alt="" />
             </div>
           </div>
         </div>

@@ -40,12 +40,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-12">
-                                    <div class="input-group mb-3 mt-4">
-                                        <label class="input-group-text" for="productIsActive">Is Active ?</label>
-                                        <select class="form-select" id="productIsActive" name="is_active">
-                                            <option value="1">Active</option>
-                                            <option value="0">Deactive</option>
-                                        </select>
+                                    <div class="col mb-1">
+                                        <label class="mb-2" for="productPrice">Stock</label> <br />
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text">Kg</span>
+                                            <input type="text" class="form-control" id="productStock" name="stock" aria-label="Dollar amount (with dot and two decimal places)">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-12">
@@ -54,6 +54,16 @@
                                         <textarea class="form-control" id="productDescription" name="description" rows="3"></textarea>
                                     </div>
                                 </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="input-group mb-3 mt-4">
+                                        <label class="input-group-text" for="productIsActive">Is Active ?</label>
+                                        <select class="form-select" id="productIsActive" name="is_active">
+                                            <option value="1">Active</option>
+                                            <option value="0">Deactive</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
                                 <div class="col-12 d-flex justify-content-end">
                                     <button type="submit" class="btn btn-primary me-1 mb-1">Submit</button>
                                     <button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>

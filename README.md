@@ -22,18 +22,26 @@ Nilapond Developer Team adalah sebuah tim pengembang yang terdiri dari 6 individ
 ## How to install?
 
 ```sh
-$ git clone https://github.com/naufalardhani/Nila-Pond.git
+> git clone https://github.com/naufalardhani/Nila-Pond.git
 ```
 
 ```sh
-$ cd Nila-Pond && composer install
+> cd Nila-Pond && composer install
 ```
 
 ```sh
-$ php artisan migrate
+> cp .env.example .env
 ```
 
 ```sh
-$ php artisan serve
+> php artisan key:generate
+```
+
+```sh
+> php artisan migrate
+```
+
+```sh
+> php artisan serve
 ```
 

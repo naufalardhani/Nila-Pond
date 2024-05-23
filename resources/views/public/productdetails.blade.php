@@ -40,7 +40,7 @@
               <h2>{{ $product->name }}</h2>
             </div>
             <div>
-              <button class="btna">Available Stock</button>
+              <button class="btna">Available Stock {{ $product->stock }}Kg </button>
             </div>
             <div class="propel-text">
               <p class="bn">
@@ -48,7 +48,7 @@
               </p>
             </div>
             <div class="buynow">
-              <a href="#" class="btn">Buy Now</a>
+              <a href="#" class="btn">{{formatRupiah($product->price)}}/Kg - Buy Now</a>
             </div>
           </div>
         </div>

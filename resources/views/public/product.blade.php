@@ -43,7 +43,7 @@
                 </figure>
                 <a href="{{ route('product_details', ['id' => $product->id]) }}"><i class="fa-solid fa-angle-right"></i></a>
                 </div>
-                <h4><a href="{{ route('product_details', ['id' => $product->id]) }}">{{ $product->name }}</a></h4>{{ formatRupiah($product->price) }}/KG
+                <h4><a href="{{ route('product_details', ['id' => $product->id]) }}">{{ $product->name }}</a></h4>{{ formatRupiah($product->price) }}/KG (Available stock {{ $product->stock }}Kg)
             </div>
         </div>
         @empty

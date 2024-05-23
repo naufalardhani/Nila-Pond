@@ -33,7 +33,7 @@
           </div>
           <ul class="social-icon">
             <li>
-              <a href="#" target="_blank"
+              <a href="https://facebook.com" target="_blank"
                 ><i class="fa-brands fa-facebook-f"></i
               ></a>
             </li>
@@ -45,7 +45,7 @@
               ></a>
             </li>
             <li>
-              <a href="#" target="_blank"
+              <a href="https://instagram.com" target="_blank"
                 ><i class="fa-brands fa-instagram"></i
               ></a>
             </li>
@@ -59,19 +59,19 @@
           <ul>
             <li>
               <i class="fa-solid fa-angle-right"></i
-              ><a href="index.html">Home</a>
+              ><a href="{{route('index')}}">Home</a>
             </li>
             <li>
               <i class="fa-solid fa-angle-right"></i
-              ><a href="about.html">About</a>
+              ><a href="{{route('about')}}">About</a>
             </li>
             <li>
               <i class="fa-solid fa-angle-right"></i
-              ><a href="product.html">Product</a>
+              ><a href="{{route('product')}}">Product</a>
             </li>
             <li>
               <i class="fa-solid fa-angle-right"></i
-              ><a href="contact.html">Contact</a>
+              ><a href="{{route('contact')}}">Contact</a>
             </li>
           </ul>
         </div>

@@ -35,7 +35,7 @@
                                         <label class="mb-2" for="productPrice">Price (per kilogram)</label> <br />
                                         <div class="input-group mb-3">
                                             <span class="input-group-text">Rp</span>
-                                            <input type="text" class="form-control" id="productPrice" name="price" aria-label="Dollar amount (with dot and two decimal places)">
+                                            <input type="text" class="form-control" id="productPrice" name="price">
                                         </div>
                                     </div>
                                 </div>
@@ -44,7 +44,7 @@
                                         <label class="mb-2" for="productPrice">Stock</label> <br />
                                         <div class="input-group mb-3">
                                             <span class="input-group-text">Kg</span>
-                                            <input type="text" class="form-control" id="productStock" name="stock" aria-label="Dollar amount (with dot and two decimal places)">
+                                            <input type="text" class="form-control" id="productStock" name="stock">
                                         </div>
                                     </div>
                                 </div>

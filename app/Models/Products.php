@@ -21,6 +21,7 @@ class Products extends Model
         'photo_url',
         'photo_name',
         'price',
+        'stock',
         'is_active',
         'description'
     ];

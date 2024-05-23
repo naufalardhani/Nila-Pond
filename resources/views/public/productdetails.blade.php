@@ -40,7 +40,7 @@
               <h2>{{ $product->name }}</h2>
             </div>
             <div>
-              <button class="btna">Available Stok</button>
+              <button class="btna">Available Stock</button>
             </div>
             <div class="propel-text">
               <p class="bn">

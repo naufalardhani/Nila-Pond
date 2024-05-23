@@ -32,6 +32,7 @@
                     <th>Name</th>
                     <th>Description</th>
                     <th>Price</th>
+                    <th>Stock</th>
                     <th>Image</th>
                     <th>Status</th>
                     <th>Action</th>
@@ -42,7 +43,8 @@
                 <tr>
                     <td>{{ $product->name }}</td>
                     <td>{{ $product->description }}</td>
-                    <td>Rp{{ $product->price }}</td>
+                    <td>{{ formatRupiah($product->price) }}</td>
+                    <td>{{ $product->stock }}Kg</td>
                     <td><img src="{{ asset($product->photo_url) }}" height="100" \></td>
                     <td>
                     @if($product->is_active == 1)

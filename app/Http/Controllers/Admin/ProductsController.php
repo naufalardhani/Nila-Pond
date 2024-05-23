@@ -39,6 +39,7 @@ class ProductsController extends Controller
             $products->description = $req['description'];
             $products->is_active = $req['is_active'];
             $products->price = $req['price'];
+            $products->stock = $req['stock'];
             
             if ($request->hasFile('thumbnail')) {
                 $file = $request->file('thumbnail');
@@ -95,6 +96,7 @@ class ProductsController extends Controller
             $products->description = $req['description'];
             $products->is_active = $req['is_active'];
             $products->price = $req['price'];
+            $products->stock = $req['stock'];
 
             if ($request->hasFile('thumbnail')) {
                 $file = $request->file('thumbnail');

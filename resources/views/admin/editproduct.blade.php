@@ -25,7 +25,7 @@
                                         <label class="mb-2" for="productPrice">Price (per kilogram)</label> <br />
                                         <div class="input-group mb-3">
                                             <span class="input-group-text">Rp</span>
-                                            <input type="text" class="form-control" id="productPrice" name="price" aria-label="Dollar amount (with dot and two decimal places)" value="{{ $product->price }}">
+                                            <input type="text" class="form-control" id="productPrice" name="price" value="{{ $product->price }}">
                                         </div>
                                     </div>
                                 </div>
@@ -53,6 +53,16 @@
                                             <span class="form-file-text">Choose file...</span>
                                             <span class="form-file-button">Browse</span>
                                         </label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-12">
+                                    <div class="col mb-1">
+                                        <label class="mb-2" for="productStock">Stock</label> <br />
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text">Kg</span>
+                                            <input type="text" class="form-control" id="productStock" name="stock" value="{{ $product->stock }}">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-12 d-flex justify-content-end">

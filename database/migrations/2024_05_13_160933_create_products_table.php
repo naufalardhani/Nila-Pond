@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('photo_url');
             $table->string('photo_name');
             $table->integer('price');
+            $table->integer('stock');
             $table->boolean('is_active');
             $table->string('description');
             $table->timestamps();

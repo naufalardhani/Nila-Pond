@@ -24,6 +24,7 @@ class UpdateProductsRequest extends FormRequest
         return [
             'name' => ['required'],
             'price' => ['required'],
+            'stock' => ['required'],
             'is_active' => ['required'],
             'description' => ['required'],
             'photo_url' => ['nullable'], // Menjadikan photo_url opsional

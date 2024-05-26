@@ -31,11 +31,25 @@
                     </a>          
                 </li>
 
-                <li class="sidebar-item ">
+                <li class="sidebar-item has-sub">
                     <a href="{{ route('admin_index') }}" class='sidebar-link'>
                         <i data-feather="dollar-sign" width="20"></i> 
                         <span>Finance</span>
                     </a>          
+                    <ul class="submenu ">
+                        
+                        <li>
+                            <a href="form-element-input.html">Income</a>
+                        </li>
+                        
+                        <li>
+                            <a href="form-element-input-group.html">Outcome</a>
+                        </li>
+                        
+                        <li>
+                            <a href="form-element-select.html">Profit Analyst</a>
+                        </li>
+                    </ul>
                 </li>
 
                 <li class="sidebar-item {{ Route::currentRouteName() === 'list_contact' ? 'active' : '' }}">

@@ -35,5 +35,16 @@ class AdminController extends Controller
         $contact = Contact::latest()->paginate();
         return view('admin/listcontact', compact('contact'));
     }
+    
+    public function add_income() {
+        return view('admin/addincome');
+    }
 
+    public function add_outcome() {
+        return view('admin/addoutcome');
+    }
+
+    public function profit_analyst() {
+        return view('admin/profitanalyst');
+    }
 }

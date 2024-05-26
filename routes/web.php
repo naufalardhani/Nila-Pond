@@ -34,6 +34,9 @@ Route::prefix('/admin')->group(function () {
         Route::get('/list-product', [AdminController::class, 'list_product'])->name('list_product');
         Route::get('/edit-product/{id}', [AdminController::class, 'edit_product'])->name('edit_product');
         Route::get('/contacts', [AdminController::class, 'list_contact'])->name('list_contact');
+        Route::get('/add-income', [AdminController::class, 'add_income'])->name('add_income');
+        Route::get('/add-outcome', [AdminController::class, 'add_outcome'])->name('add_outcome');
+        Route::get('/profit-analyst', [AdminController::class, 'profit_analyst'])->name('profit_analyst');
     });
 });
 

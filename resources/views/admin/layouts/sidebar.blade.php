@@ -33,21 +33,21 @@
 
                 <li class="sidebar-item has-sub">
                     <a href="{{ route('admin_index') }}" class='sidebar-link'>
-                        <i data-feather="dollar-sign" width="20"></i> 
+                    <i data-feather="dollar-sign" width="20"></i> 
                         <span>Finance</span>
                     </a>          
                     <ul class="submenu ">
                         
                         <li>
-                            <a href="form-element-input.html">Income</a>
+                            <a href="{{route('add_income')}}">Add Income</a>
                         </li>
                         
                         <li>
-                            <a href="form-element-input-group.html">Outcome</a>
+                            <a href="{{route('add_outcome')}}">Add Outcome</a>
                         </li>
                         
                         <li>
-                            <a href="form-element-select.html">Profit Analyst</a>
+                            <a href="{{route('profit_analyst')}}">Profit Analyst</a>
                         </li>
                     </ul>
                 </li>

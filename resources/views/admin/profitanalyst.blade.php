@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-12 col-md-6 order-md-1 order-last">
                 <h3>Profit Analyst</h3>
-                <p class="text-subtitle text-muted">We use 'simple-datatables' made by @fiduswriter. You can check the full documentation <a href="https://github.com/fiduswriter/Simple-DataTables/wiki">here</a>.</p>
+                <br />
             </div>
             <div class="col-12 col-md-6 order-md-2 order-first">
                 <nav aria-label="breadcrumb" class='breadcrumb-header'>
@@ -39,19 +39,15 @@
                 </tr>
             </thead>
             <tbody>
-                @forelse ($products as $product)
+               
                 <tr>
-                    <td>{{ $product->name }}</td>
-                    <td>{{ $product->description }}</td>
-                    <td>{{ formatRupiah($product->price) }}</td>
-                    <td>{{ $product->stock }}Kg</td>
-                    <td><img src="{{ asset($product->photo_url) }}" height="100" \></td>
+                    <td>#</td>
+                    <td>#</td>
+                    <td>#</td>
+                    <td>#Kg</td>
+                    <td><img src="#" height="100" \></td>
                     <td>
-                    @if($product->is_active == 1)
                         <span class="badge bg-success">Active</span>
-                    @elseif($product->is_active == 0)
-                        <span class="badge bg-danger">Non-Active</span>
-                    @endif
                     </td>
                     <td>
                         <div class="row row-2">
@@ -65,42 +61,6 @@
                     </td>
                 </tr>
             </tbody>
-            <!-- <tbody>
-                @forelse ($products as $product)
-                <tr>
-                    <td>{{ $product->name }}</td>
-                    <td>{{ $product->description }}</td>
-                    <td>{{ formatRupiah($product->price) }}</td>
-                    <td>{{ $product->stock }}Kg</td>
-                    <td><img src="{{ asset($product->photo_url) }}" height="100" \></td>
-                    <td>
-                    @if($product->is_active == 1)
-                        <span class="badge bg-success">Active</span>
-                    @elseif($product->is_active == 0)
-                        <span class="badge bg-danger">Non-Active</span>
-                    @endif
-                    </td>
-                    <td>
-                        <div class="row row-2">
-                            <div class="col-md-3">
-                                <a href="{{ route('edit_product', ['id' => $product->id]) }}" class="btn icon btn-primary"><i data-feather="edit"></i></a>
-                            </div>
-                            <div class="col-md-3">
-                                <a href="{{ route('destroy_product', ['id' => $product->id]) }}" class="btn icon btn-danger"><i data-feather="trash"></i></a>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-                @empty
-                    <tr>
-                        <td colspan="6">
-                            <div class="alert alert-danger">
-                                Data Product belum Tersedia.
-                            </div>
-                        </td>
-                    </tr>
-                @endforelse
-            </tbody> -->
         </table>
     </div>
 </div>

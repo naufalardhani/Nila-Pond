@@ -6,6 +6,7 @@ use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\ProductsController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\IncomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -53,6 +54,8 @@ Route::prefix('/api')->group(function () {
         Route::post('/update-product/{id}', [ProductsController::class, 'update'])->name('update_product'); // Mengubah POST menjadi PUT
         Route::get('/destroy-product/{id}', [ProductsController::class, 'destroy'])->name('destroy_product'); // Mengubah POST menjadi PUT
         Route::get('/destroy-contact/{id}', [ContactController::class, 'destroy'])->name('destroy_contact'); // Mengubah POST menjadi PUT
+        
+        Route::post('/store-income', [ProductsController::class, 'store'])->name('store_income');
     });
 
 });

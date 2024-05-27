@@ -41,6 +41,9 @@
                         <li>
                             <a href="{{route('add_income')}}">Add Income</a>
                         </li>
+                        <li>
+                            <a href="{{route('list_income')}}">List Income</a>
+                        </li>
                         
                         <li>
                             <a href="{{route('add_outcome')}}">Add Outcome</a>

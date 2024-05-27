@@ -39,8 +39,6 @@ class IncomeController extends Controller
             $income->total_weight = $req['total_weight'];
             $income->purchase_date = $req['purchase_date'];
             
-            dd($income);
-
             $income->save();
 
             return redirect()->route('add_income')->with('success', 'Submit income successfully.');
@@ -79,8 +77,12 @@ class IncomeController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Income $income)
+    public function destroy($id)
     {
-        //
+        {
+            $product = Income::findOrFail($id);
+            $product->delete();
+            return redirect()->route('list_income')->with('success', 'Income deleted successfully.');
+        }
     }
 }

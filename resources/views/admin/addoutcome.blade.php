@@ -10,8 +10,22 @@
                     <h4 class="card-title">Input Outcome</h4>
                 </div>
                 <div class="card-content">
+                @if(session('error'))
+                    <div class="alert alert-danger">
+                        {{ session('error') }}
+                    </div>
+                    <script>
+                        console.error("Error submitting income: {{ session('error') }}");
+                    </script>
+                @endif
+
+                @if(session('success'))
+                    <div class="alert alert-success">
+                        {{ session('success') }}
+                    </div>
+                @endif
                     <div class="card-body">
-                        <form class="form" method="POST" action="#" enctype="multipart/form-data">
+                        <form class="form" method="POST" action="{{ route('store_outcome') }}" enctype="multipart/form-data">
                         <!-- <form class="form" method="POST" action="{{ route('store_product') }}" enctype="multipart/form-data"> -->
                             @csrf <!-- CSRF token -->
                             <div class="row">

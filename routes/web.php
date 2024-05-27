@@ -6,7 +6,8 @@ use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\ProductsController;
 use App\Http\Controllers\ContactController;
-use App\Http\Controllers\IncomeController;
+use App\Http\Controllers\IncomeController;;
+use App\Http\Controllers\OutcomeController;;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,6 +39,7 @@ Route::prefix('/admin')->group(function () {
         Route::get('/add-income', [AdminController::class, 'add_income'])->name('add_income');
         Route::get('/add-outcome', [AdminController::class, 'add_outcome'])->name('add_outcome');
         Route::get('/profit-analyst', [AdminController::class, 'profit_analyst'])->name('profit_analyst');
+        Route::get('/list-income', [AdminController::class, 'list_income'])->name('list_income');
     });
 });
 
@@ -55,7 +57,9 @@ Route::prefix('/api')->group(function () {
         Route::get('/destroy-product/{id}', [ProductsController::class, 'destroy'])->name('destroy_product'); // Mengubah POST menjadi PUT
         Route::get('/destroy-contact/{id}', [ContactController::class, 'destroy'])->name('destroy_contact'); // Mengubah POST menjadi PUT
         
-        Route::post('/store-income', [ProductsController::class, 'store'])->name('store_income');
+        Route::post('/store-income', [IncomeController::class, 'store'])->name('store_income');
+        Route::get('/destroy-income/{id}', [IncomeController::class, 'destroy'])->name('destroy_income');
+        Route::post('/store-outcome', [OutcomeController::class, 'store'])->name('store_outcome');
     });
 
 });

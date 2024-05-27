@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Products;
 use App\Models\Contact;
+use App\Models\Income;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Http\Request;
 
@@ -46,5 +47,10 @@ class AdminController extends Controller
 
     public function profit_analyst() {
         return view('admin/profitanalyst');
+    }
+
+    public function list_income() {
+        $incomes = Income::latest()->paginate();
+        return view('admin/listincome', compact('incomes'));
     }
 }

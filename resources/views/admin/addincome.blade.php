@@ -11,19 +11,19 @@
                 </div>
                 <div class="card-content">
                 @if(session('error'))
-            <div class="alert alert-danger">
-                {{ session('error') }}
-            </div>
-            <script>
-                console.error("Error submitting income: {{ session('error') }}");
-            </script>
-        @endif
+                    <div class="alert alert-danger">
+                        {{ session('error') }}
+                    </div>
+                    <script>
+                        console.error("Error submitting income: {{ session('error') }}");
+                    </script>
+                @endif
 
-        @if(session('success'))
-            <div class="alert alert-success">
-                {{ session('success') }}
-            </div>
-        @endif
+                @if(session('success'))
+                    <div class="alert alert-success">
+                        {{ session('success') }}
+                    </div>
+                @endif
                     <div class="card-body">
                         <form class="form" method="POST" action="{{ route('store_income') }}" enctype="multipart/form-data">
                         <!-- <form class="form" method="POST" action="{{ route('store_product') }}" enctype="multipart/form-data"> -->

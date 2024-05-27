@@ -40,7 +40,7 @@
                                 <div class="col-md-6 col-12">
                                     <div class="form-group">
                                         <label class="mb-1" for="productDate">Tanggal Pembelian</label><br />
-                                        <input type="date" class="form-control" id="productDate" name="date">
+                                        <input type="date" class="form-control" id="productDate" name="purchase_date">
                                     </div>
                                 </div>
 
@@ -49,7 +49,7 @@
                                         <label class="mb-2" for="productPrice">Nominal</label> <br />
                                         <div class="input-group mb-3">
                                             <span class="input-group-text">Rp</span>
-                                            <input type="text" class="form-control" id="productPrice" name="price">
+                                            <input type="text" class="form-control" id="productPrice" name="nominal">
                                         </div>
                                     </div>
                                 </div>

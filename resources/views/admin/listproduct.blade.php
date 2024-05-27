@@ -7,13 +7,13 @@
         <div class="row">
             <div class="col-12 col-md-6 order-md-1 order-last">
                 <h3>List of Products</h3>
-                <p class="text-subtitle text-muted">We use 'simple-datatables' made by @fiduswriter. You can check the full documentation <a href="https://github.com/fiduswriter/Simple-DataTables/wiki">here</a>.</p>
+                <br />
             </div>
             <div class="col-12 col-md-6 order-md-2 order-first">
                 <nav aria-label="breadcrumb" class='breadcrumb-header'>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Datatable</li>
+                        <li class="breadcrumb-item active" aria-current="page">List of Products</li>
                     </ol>
                 </nav>
             </div>
@@ -21,9 +21,7 @@
     </div>
     <section class="section">
         <div class="card">
-            <div class="card-header">
-                Simple Datatable
-            </div>
+        
             <div class="card-body">
     <div class="table-responsive">
         <table class='table table-striped' id="table1">
@@ -66,7 +64,7 @@
                 </tr>
                 @empty
                     <tr>
-                        <td colspan="6">
+                        <td colspan="7">
                             <div class="alert alert-danger">
                                 Data Product belum Tersedia.
                             </div>

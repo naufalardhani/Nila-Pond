@@ -49,7 +49,7 @@
                             <div class='px-3 py-3 d-flex justify-content-between'>
                                 <h3 class='card-title'>Finance</h3>
                                 <div class="card-right d-flex align-items-center">
-                                    <p>983.000.000 </p>
+                                    <p>{{ formatRupiah($total_finance) }} </p>
                                 </div>
                             </div>
                             <div class="chart-wrapper">

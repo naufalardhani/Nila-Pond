@@ -31,7 +31,13 @@
                     </a>          
                 </li>
 
-                <li class="sidebar-item has-sub">
+                <li class="sidebar-item has-sub {{ 
+                Route::currentRouteName() === 'add_income' || 
+                Route::currentRouteName() === 'list_income' || 
+                Route::currentRouteName() === 'add_outcome' || 
+                Route::currentRouteName() === 'list_outcome' 
+                ? 'active' : '' 
+                }}">
                     <a href="{{ route('admin_index') }}" class='sidebar-link'>
                     <i data-feather="dollar-sign" width="20"></i> 
                         <span>Finance</span>
@@ -50,7 +56,7 @@
                         </li>
                         
                         <li>
-                            <a href="{{route('profit_analyst')}}">Profit Analyst</a>
+                            <a href="{{route('list_outcome')}}">List Outcome</a>
                         </li>
                     </ul>
                 </li>

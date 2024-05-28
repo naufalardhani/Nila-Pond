@@ -1,5 +1,5 @@
 @extends('public.templating.layout')
-@section('title', 'NilaPond - Page Name')
+@section('title', 'NilaPond')
 @section('content')
 <section class="hero-section-one">
       <div class="container">

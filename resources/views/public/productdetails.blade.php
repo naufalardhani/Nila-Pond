@@ -48,7 +48,7 @@
               </p>
             </div>
             <div class="buynow">
-              <a href="#" class="btn">{{formatRupiah($product->price)}}/Kg - Buy Now</a>
+              <a href="https://wa.link/1yt3u2" class="btn">{{formatRupiah($product->price)}}/Kg - Buy Now</a>
             </div>
           </div>
         </div>

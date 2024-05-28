@@ -1,5 +1,5 @@
 @extends('public.templating.layout')
-@section('title', 'NilaPond')
+@section('title', 'NilaPond - Products')
 @section('content')
 <section
     class="bannr"

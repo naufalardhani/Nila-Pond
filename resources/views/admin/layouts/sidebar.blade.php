@@ -72,13 +72,6 @@
 
                 <li class="sidebar-item ">
                     <a href="{{ route('auth_logout') }}" class='sidebar-link'>
-                        <i data-feather="tool" width="20"></i> 
-                        <span>Web Settings</span>
-                    </a>          
-                </li>
-
-                <li class="sidebar-item ">
-                    <a href="{{ route('auth_logout') }}" class='sidebar-link'>
                         <i data-feather="log-out" width="20"></i> 
                         <span>Logout</span>
                     </a>          

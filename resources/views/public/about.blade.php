@@ -8,17 +8,15 @@
     <div class="row align-items-end">
         <div class="col-lg-6">
         <div class="bannr-text">
-            <h2>About</h2>
+            <h2>Tentang Kami</h2>
             <p>
-            Our Nila Pond is the primary destination for customers who
-            prioritize quality and health.
-            </p>
+                Kolam Nila kami adalah tujuan utama bagi pelanggan yang memprioritaskan kualitas dan kesehatan.            </p>
             <ol class="breadcrumb">
             <li class="breadcrumb-item">
-                <a href="index.html">Home</a>
+                <a href="index.html">Beranda</a>
             </li>
             <li class="breadcrumb-item active" aria-current="page">
-                About
+                Tentang
             </li>
             </ol>
         </div>
@@ -37,7 +35,7 @@
     <div class="row">
         <div class="col-lg-6">
         <div class="intelligent">
-            <h2>Simple Fish Stalk</h2>
+            <h2>Tentang Tambak Nila</h2>
             <img src="assets/img/abtimg2.png" alt="intelligent" />
             <img
             src="assets/img/dots-shaps.png"
@@ -52,21 +50,17 @@
         <div class="col-lg-6">
         <div class="intelligent-text">
             <p>
-            Mr. Nandang stands firmly in the Housing of Bukit Asri, Ciomas,
-            Bogor, becoming the economic backbone of the surrounding
-            community. Under the leadership of Mr. Nandang and his team,
-            this fish breeding effort focuses on the maintenance of nylon
-            and lele, with the aim of creating a healthy and sustainable
-            breeding environment. However, aware of the importance of market
-            expansion and reaching consumers outside the local territory,
-            they took a strategic step by creating a Nila-Pond website. This
-            step is expected to expand the marketing reach and improve
-            business performance through more efficient and organized sales
-            data management. <br /><br />Through the Nila-Pond online
-            platform, Nila Pak Nandang hopes to reach a wider market and
-            reach potential consumers outside the local territory. Thus,
-            they hope to increase revenue and support the sustainability of
-            their business in the future.
+                Pak Nandang adalah seorang pengusaha tambak ikan nila yang telah sukses mengubah hobinya menjadi bisnis yang menguntungkan. 
+                Sebagai pemilik tambak, beliau membudidayakan dua jenis ikan nila: nila merah dan nila hitam. 
+                Dengan dedikasi dan pengetahuan mendalam tentang budidaya ikan, Pak Nandang telah berhasil menciptakan lingkungan yang optimal untuk pertumbuhan ikan-ikannya.
+                <br /><br />
+                Selain ikan nila, Pak Nandang juga mengembangkan budidaya ikan lele organik. 
+                Beliau sangat peduli terhadap kualitas dan kesejahteraan ikan yang dibudidayakan, sehingga semua proses dilakukan dengan cara organik dan ramah lingkungan. 
+                Pendekatan ini memastikan bahwa ikan yang dihasilkan sehat dan bebas dari bahan kimia berbahaya.
+                <br /><br />
+                Tidak hanya fokus pada budidaya dan penjualan ikan, Pak Nandang juga berbagi ilmu dan pengalamannya melalui channel YouTube miliknya. 
+                Di kanal tersebut, ia kerap membagikan berbagai tips dan trik terkait pemeliharaan ikan nila, mulai dari cara memilih bibit unggul, teknik pemberian pakan, hingga cara menjaga kualitas air tambak. 
+                Dengan pendekatan yang informatif dan mudah dipahami, channel YouTube Pak Nandang telah membantu banyak orang yang tertarik untuk belajar dan menggeluti dunia budidaya ikan nila.
             </p>
             <div class="video position-relative">
             <a
@@ -96,14 +90,14 @@
     <div class="container">
     <div class="heading">
         <img src="assets/img/heading-img.png" alt="heading-img" />
-        <h2>Meet Our Founder</h2>
+        <h2>Temui Pendiri Kami</h2>
     </div>
     <div class="row">
         <div class="col-lg-4 col-md-6">
         <div class="team-text">
             <img src="assets/img/alikimg.png" alt="team" />
             <a href="#"><h4>Nandang Alik</h4></a>
-            <span>Catfish Farmer</span>
+            <span>CEO NilaPond</span>
             <a href="https://wa.me/62 813-1405-3005" target="_blank">
             <i>
                 <svg
@@ -177,7 +171,7 @@
         <div class="team-text">
             <img src="assets/img/nurliaimg.png" alt="team" />
             <a href="#"><h4>Nurlia Alik</h4></a>
-            <span>Catfish Farmer</span>
+            <span>Pendiri NilaPond</span>
             <a href="https://wa.me/6281310620126" target="_blank">
             <i>
                 <svg
@@ -243,7 +237,7 @@
         <div class="team-text">
             <img src="https://via.placeholder.com/260x260" alt="team" />
             <a href="#"><h4>Dehan</h4></a>
-            <span>Catfish Farmer</span>
+            <span>Peternak Ikan</span>
             <a href="">
             <i>
                 <svg

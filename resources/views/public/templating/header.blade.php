@@ -12,16 +12,16 @@
           <nav class="navbar">
             <ul class="navbar-links">
               <li class="navbar-dropdown has-children">
-                <a href="{{ route('index') }}">Home</a>
+                <a href="{{ route('index') }}">Beranda</a>
               </li>
               <li class="navbar-dropdown">
-                <a href="{{ route('about') }}">About</a>
+                <a href="{{ route('about') }}">Tentang</a>
               </li>
               <li class="navbar-dropdown has-children">
-                <a href="{{ route('product') }}">Product</a>
+                <a href="{{ route('product') }}">Produk</a>
               </li>
               <li class="navbar-dropdown">
-                <a href="{{ route('contact') }}">Contact</a>
+                <a href="{{ route('contact') }}">Kontak</a>
               </li>
             </ul>
           </nav>
@@ -134,10 +134,9 @@
             <div class="col-lg-8 valign">
               <div class="cont-info two">
                 <div class="about-sasnio bottom">
-                  <h4>About Nilapond</h4>
+                  <h4>Tentang Nilapond</h4>
                   <p>
-                    Our Nila Pond is the primary destination for customers who
-                    prioritize quality and health.
+                    Kolam Nila kami adalah tujuan utama bagi pelanggan yang memprioritaskan kualitas dan kesehatan.
                   </p>
                 </div>
               </div>
@@ -145,13 +144,13 @@
             <div class="col-lg-4 valign">
               <div class="cont-info">
                 <div class="item mb-50">
-                  <h6 class="text-u fw-600 mb-20">Location</h6>
+                  <h6 class="text-u fw-600 mb-20">Lokasi</h6>
                   <p class="fw-400 fz-18">
-                    Jl. Pinus 3 Pagelaran, Kec. Ciomas, Kab. Bogor, Jawa Barat
+                    Perumahan Bukit Asri, jl. Pinus 3 Pagelaran, Kec. Ciomas, Kab. Bogor, Jawa Barat
                   </p>
                 </div>
                 <div class="item mb-50">
-                  <h6 class="text-u fw-600 mb-20">HOW TO CONNECT</h6>
+                  <h6 class="text-u fw-600 mb-20">Bagaimana Cara Menghubungi Kami</h6>
                   <p class="fw-400 fz-18">
                     <a href="https://wa.me/6281310620126" target="_blank"
                       >+62 813-1062-0126</a
@@ -162,7 +161,7 @@
                   </p>
                 </div>
                 <div class="bottom">
-                  <h6 class="text-u fw-600 mb-20">Follow Us</h6>
+                  <h6 class="text-u fw-600 mb-20">Ikuti kami</h6>
                   <ul class="rest social-text d-flex fz-13">
                     <li>
                       <a href="#"><i class="fa-brands fa-facebook-f"></i></a>

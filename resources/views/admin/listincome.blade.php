@@ -6,14 +6,14 @@
     <div class="page-title">
         <div class="row">
             <div class="col-12 col-md-6 order-md-1 order-last">
-                <h3>List of Incomes</h3>
+                <h3>Daftar Pendapatan</h3>
                 <br />
             </div>
             <div class="col-12 col-md-6 order-md-2 order-first">
                 <nav aria-label="breadcrumb" class='breadcrumb-header'>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">List Income</li>
+                        <li class="breadcrumb-item active" aria-current="page">Daftar Pendapatan</li>
                     </ol>
                 </nav>
             </div>
@@ -26,11 +26,11 @@
                     <table class='table table-striped' id="table1">
                         <thead>
                             <tr>
-                                <th>Product Name</th>
-                                <th>Income</th>
-                                <th>Total Weight (KG)</th>
-                                <th>Purchase Date</th>
-                                <th>Action</th>
+                                <th>Nama Produk</th>
+                                <th>Pemasukan</th>
+                                <th>Berat Total (KG)</th>
+                                <th>Tanggal Pembelian</th>
+                                <th>Aksi</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -52,7 +52,7 @@
                             <tr>
                                 <td colspan="5">
                                     <div class="alert alert-danger">
-                                        Data Income belum Tersedia.
+                                        Data Pemasukan belum Tersedia.
                                     </div>
                                 </td>
                             </tr>
@@ -64,7 +64,7 @@
             <div class="card-footer">
                 <div class="row">
                     <div class="col-md-6">
-                        <h5>Total Income: </h5>
+                        <h5>Total Pemasukan: </h5>
                     </div>
                     <div class="col-md-6">
                     @php

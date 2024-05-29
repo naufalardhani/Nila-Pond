@@ -169,7 +169,7 @@
         </div>
         <div class="col-lg-4 col-md-6">
         <div class="team-text">
-            <img src="assets/img/nurliaimg.png" alt="team" />
+            <img src="{{asset('assets/img/nurliaimg.png')}}" alt="team" />
             <a href="#"><h4>Nurlia Alik</h4></a>
             <span>Pendiri NilaPond</span>
             <a href="https://wa.me/6281310620126" target="_blank">
@@ -235,7 +235,7 @@
         </div>
         <div class="col-lg-4 col-md-6">
         <div class="team-text">
-            <img src="https://via.placeholder.com/260x260" alt="team" />
+            <img src="{{ asset('assets/img/dehan.jpeg') }}" height="260" alt="team" />
             <a href="#"><h4>Dehan</h4></a>
             <span>Peternak Ikan</span>
             <a href="">

@@ -7,7 +7,7 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-header">
-                    <h4 class="card-title">Input Outcome</h4>
+                    <h4 class="card-title">Input Pengeluaran</h4>
                 </div>
                 <div class="card-content">
                 @if(session('error'))
@@ -32,7 +32,7 @@
 
                                 <div class="col-md-6 col-12">
                                     <div class="form-group">
-                                        <label for="productName">Expenses</label>
+                                        <label for="productName">Pengeluaran</label>
                                         <input type="text" class="form-control" id="expenses" name="expenses" placeholder="Bibit Ikan Nila Merah...">
                                     </div>
                                 </div>
@@ -55,8 +55,8 @@
                                 </div>
                                 
                                 <div class="col-12 d-flex justify-content-end">
-                                    <button type="submit" class="btn btn-primary me-1 mb-1">Submit</button>
-                                    <button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+                                    <button type="submit" class="btn btn-primary me-1 mb-1">Simpan</button>
+                                    <button type="reset" class="btn btn-light-secondary me-1 mb-1">Atur Ulang</button>
                                 </div>
                             </div>
                         </form>

@@ -6,14 +6,14 @@
     <div class="page-title">
         <div class="row">
             <div class="col-12 col-md-6 order-md-1 order-last">
-                <h3>List of Products</h3>
+                <h3>Daftar Produk</h3>
                 <br />
             </div>
             <div class="col-12 col-md-6 order-md-2 order-first">
                 <nav aria-label="breadcrumb" class='breadcrumb-header'>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">List of Products</li>
+                        <li class="breadcrumb-item active" aria-current="page">Daftar Produk</li>
                     </ol>
                 </nav>
             </div>
@@ -27,13 +27,13 @@
         <table class='table table-striped' id="table1">
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Description</th>
-                    <th>Price</th>
-                    <th>Stock</th>
-                    <th>Image</th>
+                    <th>Nama</th>
+                    <th>Deskripsi</th>
+                    <th>Harga</th>
+                    <th>Stok</th>
+                    <th>Gambar</th>
                     <th>Status</th>
-                    <th>Action</th>
+                    <th>Aksi</th>
                 </tr>
             </thead>
             <tbody>
@@ -46,9 +46,9 @@
                     <td><img src="{{ asset($product->photo_url) }}" height="100" \></td>
                     <td>
                     @if($product->is_active == 1)
-                        <span class="badge bg-success">Active</span>
+                        <span class="badge bg-success">Aktif</span>
                     @elseif($product->is_active == 0)
-                        <span class="badge bg-danger">Non-Active</span>
+                        <span class="badge bg-danger">Non-Aktif</span>
                     @endif
                     </td>
                     <td>

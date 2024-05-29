@@ -33,26 +33,37 @@
 <section class="gap our-projects">
     <div class="container">
     <div class="row">
-        @forelse ($products as $product)
-        <div class="col-lg-4 col-md-6">
-            <div class="projects-style">
-                <div class="projects-img">
-                <figure>
-                    <img src="{{ asset($product->photo_url) }}" height="350" alt="img" />
-                </figure>
-                <a href="{{ route('product_details', ['id' => $product->id]) }}"><i class="fa-solid fa-angle-right"></i></a>
+    @forelse ($products as $product)
+        @if ($product->is_active == 1)
+            <div class="col-lg-4 col-md-6">
+                <div class="projects-style">
+                    <div class="projects-img">
+                        <figure>
+                            <img src="{{ asset($product->photo_url) }}" height="350" alt="img" />
+                        </figure>
+                        <a href="{{ route('product_details', ['id' => $product->id]) }}">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                    <h4>
+                        <a href="{{ route('product_details', ['id' => $product->id]) }}">
+                            {{ $product->name }}
+                        </a>
+                    </h4>
+                    {{ formatRupiah($product->price) }}/KG (Stok Tersedia {{ $product->stock }}Kg)
                 </div>
-                <h4><a href="{{ route('product_details', ['id' => $product->id]) }}">{{ $product->name }}</a></h4>{{ formatRupiah($product->price) }}/KG (Stok Tersedia {{ $product->stock }}Kg)
             </div>
+        @endif
+    @empty
+        <div class="alert alert-danger">
+            Data produk belum Tersedia.
         </div>
-        @empty
-            <div class="alert alert-danger">
-                Data produk belum Tersedia.
-            </div>
-        @endforelse
-        <div class="button-center mt-0">
+    @endforelse
+    <div class="button-center mt-0">
         <a href="#" class="btn">Muat Lebih Banyak</a>
-        </div>
+    </div>
+</div>
+
     </div>
     </div>
 </section>

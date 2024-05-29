@@ -7,7 +7,7 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-header">
-                    <h4 class="card-title">Input Product</h4>
+                    <h4 class="card-title">Input Produk</h4>
                 </div>
                 <div class="card-content">
                     <div class="card-body">
@@ -16,8 +16,8 @@
                             <div class="row">
                                 <div class="col-md-6 col-12">
                                     <div class="form-group">
-                                        <label for="productName">Name</label>
-                                        <input type="text" class="form-control" id="productName" name="name" placeholder="Product name...">
+                                        <label for="productName">Nama Produk</label>
+                                        <input type="text" class="form-control" id="productName" name="name" placeholder="Nama Produk...">
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-12">
@@ -32,7 +32,7 @@
                                 </div>
                                 <div class="col-md-6 col-12">
                                     <div class="col mb-1">
-                                        <label class="mb-2" for="productPrice">Price (per kilogram)</label> <br />
+                                        <label class="mb-2" for="productPrice">Harga (per kilogram)</label> <br />
                                         <div class="input-group mb-3">
                                             <span class="input-group-text">Rp</span>
                                             <input type="text" class="form-control" id="productPrice" name="price">
@@ -41,7 +41,7 @@
                                 </div>
                                 <div class="col-md-6 col-12">
                                     <div class="col mb-1">
-                                        <label class="mb-2" for="productPrice">Stock</label> <br />
+                                        <label class="mb-2" for="productPrice">Stok</label> <br />
                                         <div class="input-group mb-3">
                                             <span class="input-group-text">Kg</span>
                                             <input type="text" class="form-control" id="productStock" name="stock">
@@ -50,23 +50,23 @@
                                 </div>
                                 <div class="col-md-6 col-12">
                                     <div class="form-group">
-                                        <label for="productDescription" class="form-label">Description</label>
+                                        <label for="productDescription" class="form-label">Deskripsi</label>
                                         <textarea class="form-control" id="productDescription" name="description" rows="3"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-12">
                                     <div class="input-group mb-3 mt-4">
-                                        <label class="input-group-text" for="productIsActive">Is Active ?</label>
+                                        <label class="input-group-text" for="productIsActive">Apakah produk in aktif?</label>
                                         <select class="form-select" id="productIsActive" name="is_active">
-                                            <option value="1">Active</option>
-                                            <option value="0">Deactive</option>
+                                            <option value="1">Aktif</option>
+                                            <option value="0">Tidak Aktif</option>
                                         </select>
                                     </div>
                                 </div>
                                 
                                 <div class="col-12 d-flex justify-content-end">
-                                    <button type="submit" class="btn btn-primary me-1 mb-1">Submit</button>
-                                    <button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+                                    <button type="submit" class="btn btn-primary me-1 mb-1">Simpan</button>
+                                    <button type="reset" class="btn btn-light-secondary me-1 mb-1">Atur Ulang</button>
                                 </div>
                             </div>
                         </form>

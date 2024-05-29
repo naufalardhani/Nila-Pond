@@ -5,8 +5,8 @@
         <div class="subscribe-text">
           <img src="{{ asset('assets/img/subscribe-icon.png') }}" alt="subscribe-icon" />
           <div>
-            <h2>Sign up to our newsletter</h2>
-            <p>get recent content and updates.</p>
+            <h2>Daftar Ke Newsletter Kami</h2>
+            <p>Dapatkan konten dan pembaruan terbaru.</p>
           </div>
         </div>
       </div>
@@ -15,20 +15,20 @@
           <input
             type="text"
             name="Enter Your Email"
-            placeholder="Enter Your Email Address..." />
-          <button class="btn">Subscribe</button>
+            placeholder="Masukkan alamat email anda..." />
+          <button class="btn">Berlangganan</button>
         </form>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-6">
         <div class="information">
-          <span>Drop us an email</span>
+          <span>Kirimkan kami email</span>
           <a href="mailto:username@domain.com">nilapond@gmail.com</a>
           <div class="d-flex">
             <i class="fa-solid fa-location-dot"></i>
             <h6>
-              Jl. Pinus 3 Pagelaran, Kec. Ciomas, Kab. Bogor, Jawa Barat
+              Perumahan Bukit Asri, jl. Pinus 3 Pagelaran, Kec. Ciomas, Kab. Bogor, Jawa Barat
             </h6>
           </div>
           <ul class="social-icon">
@@ -54,24 +54,24 @@
       </div>
       <div class="col-lg-3 col-md-6">
         <div class="footer-links">
-          <h3>useful links</h3>
+          <h3>Tautan</h3>
           <div class="boder"></div>
           <ul>
             <li>
               <i class="fa-solid fa-angle-right"></i
-              ><a href="{{route('index')}}">Home</a>
+              ><a href="{{route('index')}}">Beranda</a>
             </li>
             <li>
               <i class="fa-solid fa-angle-right"></i
-              ><a href="{{route('about')}}">About</a>
+              ><a href="{{route('about')}}">Tentang</a>
             </li>
             <li>
               <i class="fa-solid fa-angle-right"></i
-              ><a href="{{route('product')}}">Product</a>
+              ><a href="{{route('product')}}">Produk</a>
             </li>
             <li>
               <i class="fa-solid fa-angle-right"></i
-              ><a href="{{route('contact')}}">Contact</a>
+              ><a href="{{route('contact')}}">Kontak</a>
             </li>
           </ul>
         </div>

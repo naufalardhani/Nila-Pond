@@ -7,7 +7,7 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-header">
-                    <h4 class="card-title">Input Income</h4>
+                    <h4 class="card-title">Input Pemasukan</h4>
                 </div>
                 <div class="card-content">
                 @if(session('error'))
@@ -31,7 +31,7 @@
                             <div class="row">
                                 <div class="col-md-6 col-12">
                                     <div class="input-group mb-3 mt-4">
-                                        <label class="input-group-text" for="productName">Product Name</label>
+                                        <label class="input-group-text" for="productName">Nama Produk</label>
                                         <select class="form-select" id="productName" name="product_name">
                                             <option value="Nila Merah">Nila Merah</option>
                                             <option value="Nila Hitam">Nila Hitam</option>
@@ -50,7 +50,7 @@
 </div>
                                 <div class="col-md-6 col-12">
                                     <div class="col mb-1">
-                                        <label class="mb-2" for="productPrice">Income</label> <br />
+                                        <label class="mb-2" for="productPrice">Pemasukan</label> <br />
                                         <div class="input-group mb-3">
                                             <span class="input-group-text">Rp</span>
                                             <input type="text" class="form-control" id="productPrice" name="income">
@@ -59,7 +59,7 @@
                                 </div>
                                 <div class="col-md-6 col-12">
                                     <div class="col mb-1">
-                                        <label class="mb-2" for="productPrice">Total Weight</label> <br />
+                                        <label class="mb-2" for="productPrice">Total Berat</label> <br />
                                         <div class="input-group mb-3">
                                             <span class="input-group-text">Kg</span>
                                             <input type="text" class="form-control" id="totalWeight" name="total_weight">
@@ -68,8 +68,8 @@
                                 </div>
                                 
                                 <div class="col-12 d-flex justify-content-end">
-                                    <button type="submit" class="btn btn-primary me-1 mb-1">Submit</button>
-                                    <button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>
+                                    <button type="submit" class="btn btn-primary me-1 mb-1">Simpan</button>
+                                    <button type="reset" class="btn btn-light-secondary me-1 mb-1">Atur Ulang</button>
                                 </div>
                             </div>
                         </form>

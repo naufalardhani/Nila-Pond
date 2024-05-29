@@ -81,7 +81,7 @@ const map = L.map('map').setView([-6.6094799, 106.7623284], 13);
 		{ 
 			coords: [-6.596462759814261, 106.78502510457437], 
 			popup: 'Riz fam frozenfood', 
-			img: 'https://scontent.fcgk9-2.fna.fbcdn.net/v/t39.30808-6/302327187_509807091145964_1397880017915050441_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHkCAksa3662qISWzezvBDHBTRCXrErStMFNEJesStK05awbT6lQgX-4gazhFQ0oLdV69rCztVi7GFO5szCmDjy&_nc_ohc=LvbeZKNOscMQ7kNvgE1CCNh&_nc_zt=23&_nc_ht=scontent.fcgk9-2.fna&oh=00_AYDqc-oGjotFv1tEBbhqh8SLBez-qFL-dc9nnoTxtRWZ_A&oe=66550EDA',
+			img: 'https://scontent.fcgk27-1.fna.fbcdn.net/v/t39.30808-6/302327187_509807091145964_1397880017915050441_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHkCAksa3662qISWzezvBDHBTRCXrErStMFNEJesStK05awbT6lQgX-4gazhFQ0oLdV69rCztVi7GFO5szCmDjy&_nc_ohc=aztKKd-gDb8Q7kNvgHymWK_&_nc_ht=scontent.fcgk27-1.fna&oh=00_AYDt3sGWoSP5nevO3QHygc_eas38KBD9d5NFDf4NfRKpWA&oe=665CF7DA',
 			address: 'Jalan Panaragan Kidul, Gg. Hamzah kelurahan No.9, RT.04/RW.05, Panaragan, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16125',
 			phone: '081212152215',
 			hours: '10:00 - 20:00',
@@ -116,7 +116,7 @@ const map = L.map('map').setView([-6.6094799, 106.7623284], 13);
 			<b>No Telp:</b> <a href="https://wa.me/${location.phone}" target="_blank">${location.phone}</a><br />
 			<b>Jam Operasional:</b> ${location.hours}<br />
 			<a href="${googleMapsLink}" target="_blank">View on Google Maps</a><br />
-			<a href="https://wa.me/${location.phone}" target="_blank"><img src="${location.whatsapp}" alt="${location.popup}" style="width:80px;height:25px;"></a>
+			<a href="https://wa.me/${location.phone}" target="_blank"><img src="${location.whatsapp}" alt="${location.popup}" style="width:90px;height:25px;"></a>
 		`;
 		L.marker(location.coords).addTo(map)
 			.bindPopup(popupContent);

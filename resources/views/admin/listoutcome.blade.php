@@ -6,14 +6,14 @@
     <div class="page-title">
         <div class="row">
             <div class="col-12 col-md-6 order-md-1 order-last">
-                <h3>List of Outcomes</h3>
+                <h3>Daftar Pengeluaran</h3>
                 <br />
             </div>
             <div class="col-12 col-md-6 order-md-2 order-first">
                 <nav aria-label="breadcrumb" class='breadcrumb-header'>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">List Outcome</li>
+                        <li class="breadcrumb-item active" aria-current="page">Daftar Pengeluaran</li>
                     </ol>
                 </nav>
             </div>
@@ -26,10 +26,10 @@
                     <table class='table table-striped' id="table1">
                         <thead>
                             <tr>
-                                <th>Expenses</th>
+                                <th>Pengeluaran</th>
                                 <th>Nominal</th>
-                                <th>Purchase Date</th>
-                                <th>Action</th>
+                                <th>Tanggal</th>
+                                <th>Aksi</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -50,7 +50,7 @@
                             <tr>
                                 <td colspan="4">
                                     <div class="alert alert-danger">
-                                        Data Income belum Tersedia.
+                                        Data Pengeluaran belum Tersedia.
                                     </div>
                                 </td>
                             </tr>
@@ -62,7 +62,7 @@
             <div class="card-footer">
                 <div class="row">
                     <div class="col-md-6">
-                        <h5>Total Outcome: </h5>
+                        <h5>Total Pengeluaran: </h5>
                     </div>
                     <div class="col-md-6">
                     @php

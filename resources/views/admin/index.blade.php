@@ -4,7 +4,7 @@
 <div class="main-content container-fluid">
     <div class="page-title">
         <h3>Dashboard</h3>
-        <p class="text-subtitle text-muted">A good dashboard to display your statistics</p>
+        <p class="text-subtitle text-muted">Sebuah dashboard yang baik untuk menampilkan statistik anda</p>
     </div>
     <section class="section">
         <div class="row mb-2">
@@ -13,7 +13,7 @@
                     <div class="card-body p-0">
                         <div class="d-flex flex-column">
                             <div class='px-3 py-3 d-flex justify-content-between'>
-                                <h3 class='card-title'>Products</h3>
+                                <h3 class='card-title'>Produk</h3>
                                 <div class="card-right d-flex align-items-center">
                                     <p>{{ $total_product }}</p>
                                 </div>
@@ -30,7 +30,7 @@
                     <div class="card-body p-0">
                         <div class="d-flex flex-column">
                             <div class='px-3 py-3 d-flex justify-content-between'>
-                                <h3 class='card-title'>Contact Response</h3>
+                                <h3 class='card-title'>Respon Kontak</h3>
                                 <div class="card-right d-flex align-items-center">
                                     <p>{{ $total_contact }}</p>
                                 </div>
@@ -47,7 +47,7 @@
                     <div class="card-body p-0">
                         <div class="d-flex flex-column">
                             <div class='px-3 py-3 d-flex justify-content-between'>
-                                <h3 class='card-title'>Finance</h3>
+                                <h3 class='card-title'>Keuangan</h3>
                                 <div class="card-right d-flex align-items-center">
                                     <p>{{ formatRupiah($total_finance) }} </p>
                                 </div>
@@ -63,7 +63,7 @@
         <div class="col-md-8 w-100">
                 <div class="card">
                     <div class="card-header d-flex justify-content-between align-items-center">
-                        <h4 class="card-title">Contact Response</h4>
+                        <h4 class="card-title">Respon Kontak</h4>
                         <div class="d-flex ">
                             <i data-feather="download"></i>
                         </div>
@@ -73,11 +73,11 @@
                             <table class='table mb-0' id="table1">
                                 <thead>
                                     <tr>
-                                        <th>Name</th>
+                                        <th>Nama</th>
                                         <th>    </th>
-                                        <th>Phone</th>
-                                        <th>Message</th>
-                                        <th>Created At</th>
+                                        <th>No. Telp</th>
+                                        <th>Pesan</th>
+                                        <th>Dibuat Pada Tanggal</th>
                                     </tr>
                                 </thead>
                                 <tbody>

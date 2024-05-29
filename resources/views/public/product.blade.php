@@ -8,17 +8,16 @@
     <div class="row align-items-end">
         <div class="col-lg-6">
         <div class="bannr-text">
-            <h2>Our Product</h2>
+            <h2>Produk Kami</h2>
             <p>
-            Our Nila Pond is the primary destination for customers who
-            prioritize quality and health.
+                Kolam Nila kami adalah tujuan utama bagi pelanggan yang memprioritaskan kualitas dan kesehatan.
             </p>
             <ol class="breadcrumb">
             <li class="breadcrumb-item">
-                <a href="index.html">Home</a>
+                <a href="index.html">Beranda</a>
             </li>
             <li class="breadcrumb-item active" aria-current="page">
-                Product
+                Produk
             </li>
             </ol>
         </div>
@@ -43,7 +42,7 @@
                 </figure>
                 <a href="{{ route('product_details', ['id' => $product->id]) }}"><i class="fa-solid fa-angle-right"></i></a>
                 </div>
-                <h4><a href="{{ route('product_details', ['id' => $product->id]) }}">{{ $product->name }}</a></h4>{{ formatRupiah($product->price) }}/KG (Available stock {{ $product->stock }}Kg)
+                <h4><a href="{{ route('product_details', ['id' => $product->id]) }}">{{ $product->name }}</a></h4>{{ formatRupiah($product->price) }}/KG (Stok Tersedia {{ $product->stock }}Kg)
             </div>
         </div>
         @empty
@@ -52,7 +51,7 @@
             </div>
         @endforelse
         <div class="button-center mt-0">
-        <a href="#" class="btn">Load More</a>
+        <a href="#" class="btn">Muat Lebih Banyak</a>
         </div>
     </div>
     </div>

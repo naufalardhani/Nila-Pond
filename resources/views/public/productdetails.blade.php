@@ -6,20 +6,19 @@
         <div class="row align-items-end">
           <div class="col-lg-6">
             <div class="bannr-text">
-              <h2>Product Details</h2>
+              <h2>Detail Produk</h2>
               <p>
-                Our Nila Pond is the primary destination for customers who
-                prioritize quality and health.
+                Kolam Nila kami adalah tujuan utama bagi pelanggan yang memprioritaskan kualitas dan kesehatan.
               </p>
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                  <a href="index.html">Home</a>
+                  <a href="index.html">Beranda</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
-                  Product
+                  Produk
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
-                  Product Details
+                  Detail Produk
                 </li>
               </ol>
             </div>
@@ -40,7 +39,7 @@
               <h2>{{ $product->name }}</h2>
             </div>
             <div>
-              <button class="btna">Available Stock {{ $product->stock }}Kg </button>
+              <button class="btna">Stok Tersedia {{ $product->stock }}Kg </button>
             </div>
             <div class="propel-text">
               <p class="bn">
@@ -48,7 +47,7 @@
               </p>
             </div>
             <div class="buynow">
-              <a href="https://wa.link/1yt3u2" class="btn">{{formatRupiah($product->price)}}/Kg - Buy Now</a>
+              <a href="https://wa.link/1yt3u2" class="btn">{{formatRupiah($product->price)}}/Kg - Beli Sekarang</a>
             </div>
           </div>
         </div>

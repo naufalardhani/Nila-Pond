@@ -74,7 +74,7 @@
                                 <thead>
                                     <tr>
                                         <th>Nama</th>
-                                        <th>    </th>
+                                        <th>Email</th>
                                         <th>No. Telp</th>
                                         <th>Pesan</th>
                                         <th>Dibuat Pada Tanggal</th>

@@ -8,17 +8,16 @@
     <div class="row align-items-end">
         <div class="col-lg-6">
         <div class="bannr-text">
-            <h2>Contact Us</h2>
+            <h2>Hubungi Kami</h2>
             <p>
-            We create outstanding and world-class digital products, web
-            design, apps, and branding.
+            Jika Anda memiliki pertanyaan, saran, atau membutuhkan informasi lebih lanjut mengenai produk dan layanan yang kami tawarkan, jangan ragu untuk menghubungi kami. Tim kami siap membantu Anda dengan senang hati.
             </p>
             <ol class="breadcrumb">
             <li class="breadcrumb-item">
-                <a href="index.html">Home</a>
+                <a href="index.html">Beranda</a>
             </li>
             <li class="breadcrumb-item active" aria-current="page">
-                Contact Us
+                Hubungi Kami
             </li>
             </ol>
         </div>
@@ -55,7 +54,7 @@
                 </g>
             </svg>
             </i>
-            <h3>Phone No</h3>
+            <h3>Nomor Telepon</h3>
             <a href="https://wa.me/6281310620126" target="_blank"
             >+62 813-1062-0126</a
             >
@@ -99,8 +98,8 @@
                                 c64.418,7.665,102.732,29.77,102.732,47.263C405.998,465.603,341.851,492,256,492z" />
             </svg>
             </i>
-            <h3>Location</h3>
-            <p>Jl. Pinus 3 Pagelaran, Kec. Ciomas, Kab. Bogor, Jawa Barat</p>
+            <h3>Lokasi</h3>
+            <p>Perumahan Bukit Asri, jl. Pinus 3 Pagelaran, Kec. Ciomas, Kab. Bogor, Jawa Barat</p>
         </div>
         </div>
         <div class="col-lg-4 col-md-6">
@@ -125,7 +124,7 @@
                                 c-3.42-4.227-9.623-4.877-13.844-1.457C363.729,258.329,363.079,264.534,366.5,268.761z" />
             </svg>
             </i>
-            <h3>Email Address</h3>
+            <h3>Alamat Email</h3>
             <a href="mailto:username@domain.com">nilapond@gmail.com</a>
         </div>
         </div>
@@ -133,13 +132,12 @@
     <div class="row pt-80 pl-80">
         <div class="col-lg-6">
         <div class="heading two">
-            <h6>MEET OUR PROFESSIONALS</h6>
-            <h2>We'd Love to Hear From You!</h2>
+            <h6>TEMUI PARA PROFESIONAL KAMI</h6>
+            <h2>Kami Senang Mendengar dari Anda!</h2>
             <p class="pt-lg-3 pt-md-2">
-            If you need information or support, feel free to contact us
-            </p>
+            Jika Anda membutuhkan informasi atau dukungan, jangan ragu untuk menghubungi kami            </p>
         </div>
-        <h6>Social Networking:</h6>
+        <h6>Media Sosial:</h6>
         <ul class="social-icon">
             <li>
             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -180,20 +178,20 @@
             <input
             type="text"
             name="full_name"
-            placeholder="Complete Name"
+            placeholder="Nama Lengkap"
             required="" />
             <input
             type="text"
             name="email"
-            placeholder="Email Address"
+            placeholder="Alamat Email"
             required="" />
             <input
             type="text"
             name="phone"
-            placeholder="Phone No"
+            placeholder="Nomor Telepon"
             required="" />
-            <textarea placeholder="Your Message" name="message"></textarea>
-            <button type="submit" class="btn">Send Message</button>
+            <textarea placeholder="Tulis pesan anda" name="message"></textarea>
+            <button type="submit" class="btn">Kirim Pesan</button>
         </form>
         </div>
     </div>

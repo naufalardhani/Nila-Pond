@@ -6,13 +6,12 @@
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="hero-one-text">
-              <h1>Primary Choice for Health and Fish Quality</h1>
+              <h1>Pilihan Utama untuk Kualitas Ikan</h1>
               <h5>
-                "Our Nila Pond is the primary destination for customers who
-                prioritize quality and health."
+                "Tambak Nila kami menjadi tujuan utama pelanggan yang mengutamakan kualitas dan kesehatan".
               </h5>
               <div>
-                <a href="{{ route('product') }}" class="btn">Get Started</a>
+                <a href="{{ route('product') }}" class="btn">Mulai Membeli</a>
                 <!-- <a href="#" class="btn two">find out more</a> -->
               </div>
             </div>
@@ -35,8 +34,8 @@
       <div class="container">
         <div class="heading">
           <img src="assets/img/heading-img.png" alt="heading-img" />
-          <h6>Solutions for all your needs</h6>
-          <h2>Why Choose Nila-Pond?</h2>
+          <h6>Solusi untuk semua kebutuhan Anda</h6>
+          <h2>Mengapa Memilih NilaPond?</h2>
         </div>
         <div class="row services-slider owl-carousel owl-theme">
           <div class="col-lg-12 item">
@@ -52,10 +51,9 @@
                     d="M25.6666 70L19.3333 59.3333L7.33331 56.6667L8.49998 44.3333L0.333313 35L8.49998 25.6667L7.33331 13.3333L19.3333 10.6667L25.6666 0L37 4.83333L48.3333 0L54.6666 10.6667L66.6666 13.3333L65.5 25.6667L73.6666 35L65.5 44.3333L66.6666 56.6667L54.6666 59.3333L48.3333 70L37 65.1667L25.6666 70ZM28.5 61.5L37 57.8333L45.6666 61.5L50.3333 53.5L59.5 51.3333L58.6666 42L64.8333 35L58.6666 27.8333L59.5 18.5L50.3333 16.5L45.5 8.5L37 12.1667L28.3333 8.5L23.6666 16.5L14.5 18.5L15.3333 27.8333L9.16665 35L15.3333 42L14.5 51.5L23.6666 53.5L28.5 61.5ZM33.5 46.8333L52.3333 28L47.6666 23.1667L33.5 37.3333L26.3333 30.3333L21.6666 35L33.5 46.8333Z" />
                 </svg>
               </i>
-              <a href="#">Best Quality</a>
+              <a href="#">Kualitas Terbaik</a>
               <p>
-                We ensure that every step of our production is environmentally
-                friendly.
+                Kami memastikan bahwa setiap langkah produksi kami ramah lingkungan.
               </p>
             </div>
           </div>
@@ -73,10 +71,9 @@
                     d="M30.15 61.275C33.9375 51.8625 38.2125 41.1 54.375 37.5C54.375 37.5 35.625 37.5 29.55 54.8625C29.55 54.8625 26.25 51.5625 26.25 47.8125C26.25 44.0625 30 36.1125 39.375 34.2375C42.0375 33.75 45 33.2625 47.925 32.85C55.3125 31.875 62.4 30.825 63.75 28.125C63.75 28.125 58.125 60 37.5 60C36.825 60 35.8875 59.775 34.9875 59.4375L33.225 63.75L29.6625 62.5125L30.15 61.275ZM45 15C61.5375 15 75 28.4625 75 45C75 61.5375 61.5375 75 45 75C28.4625 75 15 61.5375 15 45C15 28.4625 28.4625 15 45 15ZM45 7.5C24.375 7.5 7.5 24.375 7.5 45C7.5 65.625 24.375 82.5 45 82.5C65.625 82.5 82.5 65.625 82.5 45C82.5 24.375 65.625 7.5 45 7.5Z" />
                 </svg>
               </i>
-              <a href="#">Organic Product</a>
+              <a href="#">Produk Organik</a>
               <p>
-                Our products use organic cultivation methods that do not contain
-                harmful chemicals.
+                Produk kami menggunakan metode budidaya organik yang tidak mengandung bahan kimia berbahaya.
               </p>
             </div>
           </div>
@@ -100,10 +97,9 @@
                     d="M79.4375 41C79.4375 19.8056 62.1944 2.5625 41 2.5625C35.3001 2.54803 29.6695 3.81249 24.5231 6.26275L26.7269 10.8906C31.1853 8.76917 36.0627 7.6746 41 7.6875C59.368 7.6875 74.3125 22.632 74.3125 41C74.3125 48.8797 71.6039 56.3212 66.625 62.2892V56.375H61.5V71.75H76.875V66.625H69.5924C75.9457 59.6043 79.4556 50.4686 79.4375 41Z" />
                 </svg>
               </i>
-              <a href="#">Affordable Prices</a>
+              <a href="#">Harga Terjangkau</a>
               <p>
-                We maintain quality standards from seed selection to maintenance
-                in cultivation.
+                Kami menawarkan harga yang terjangkau namun tetap mempertahankan kualitas yang terbaik
               </p>
             </div>
           </div>
@@ -130,10 +126,9 @@
                   </g>
                 </svg>
               </i>
-              <a href="#">Sustainability</a>
+              <a href="#">Keberlanjutan</a>
               <p>
-                We maintain quality standards from seed selection to maintenance
-                in cultivation.
+                Kami menjaga standar kualitas mulai dari pemilihan benih hingga pemeliharaan dalam budidaya.
               </p>
             </div>
           </div>
@@ -150,14 +145,13 @@
           </div>
           <div class="col-lg-6">
             <div class="heading two">
-              <h6>SUSTAINABILITY IS OUR FOCUS</h6>
-              <h2>The Yard of the House was Transformed into a Nila Pond</h2>
+              <h6>KEBERLANJUTAN ADALAH PRIORITAS KAMI
+              </h6>
+              <h2>Halaman Rumah Diubah Menjadi Kolam Nila</h2>
             </div>
             <div class="propel-text">
               <p>
-                Transforming the house yard into a nila pond utilizes available
-                space efficiently, providing an additional food source for the
-                family or community.
+                Mengubah halaman rumah menjadi kolam nila memanfaatkan ruang yang tersedia secara efisien, menyediakan sumber makanan tambahan bagi keluarga atau komunitas.
               </p>
               <div class="propel">
                 <div>
@@ -166,11 +160,9 @@
                   /></i>
                 </div>
                 <div>
-                  <h5>New Business Opportunities</h5>
+                  <h5>Peluang Bisnis Baru</h5>
                   <p>
-                    Transforming the house yard into a nila pond opens up new
-                    business opportunities.
-                  </p>
+                    Mengubah halaman rumah menjadi kolam nila membuka peluang bisnis baru.                  </p>
                 </div>
               </div>
               <div class="propel">
@@ -180,11 +172,9 @@
                   /></i>
                 </div>
                 <div>
-                  <h5>Trusted and Reliable</h5>
+                  <h5>Terpercaya dan Andal</h5>
                   <p>
-                    With proper management, the tilapia pond can consistently
-                    produce a reliable source of protein.
-                  </p>
+                    Dengan manajemen yang tepat, kolam nila dapat secara konsisten menghasilkan sumber protein yang dapat diandalkan.                  </p>
                 </div>
               </div>
             </div>
@@ -195,27 +185,27 @@
     <div class="gap">
       <div class="container">
         <div class="trusted-by">
-          <h5>From the Pond to Your Dining Table</h5>
+          <h5>Dari Kolam ke Meja Makan Anda</h5>
           <div class="logodata owl-carousel owl-theme">
             <div class="partner item">
               <img alt="" src="assets/img/breding.png" />
-              <h6>Breeding</h6>
+              <h6>Pembiakan</h6>
             </div>
             <div class="partner item">
               <img alt="" src="assets/img/culvulation.png" />
-              <h6>Cultivation</h6>
+              <h6>Budidaya</h6>
             </div>
             <div class="partner item">
               <img alt="" src="assets/img/harvest.png" />
-              <h6>Harvest</h6>
+              <h6>Panen</h6>
             </div>
             <div class="partner item">
               <img alt="" src="assets/img/processing.png" />
-              <h6>Processing</h6>
+              <h6>Pengolahan</h6>
             </div>
             <div class="partner item">
               <img alt="" src="assets/img/rtu.png" />
-              <h6>Ready To Serve</h6>
+              <h6>Siap Disajikan</h6>
             </div>
           </div>
         </div>
@@ -227,7 +217,7 @@
       <div class="container">
         <div class="heading">
           <img src="assets/img/heading-img.png" alt="heading-img" />
-          <h2>Popular on Youtube</h2>
+          <h2>Populer di YouTube</h2>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6">
@@ -283,7 +273,7 @@
               href="https://www.youtube.com/@Tutorialmotivasiinspirasi"
               target="_blank"
               class="btn"
-              >View All Videos</a
+              >Lihat Semua Video</a
             >
           </div>
         </div>
@@ -295,26 +285,24 @@
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="together">
-              <h2>Through Biofloc, Increase Harvest Productivity</h2>
+              <h2>Melalui Biofloc, Tingkatkan Produktivitas Panen</h2>
               <p>
-                Benefits and Advantages of the Biofloc System for Tilapia
-                Farming.
-              </p>
+                Manfaat dan Keunggulan Sistem Bioflok untuk Budidaya Ikan Nila.              </p>
               <ul class="list">
                 <li>
-                  <img src="assets/img/check.png" alt="check" />Formed from a
-                  collection of organic materials
+                  <img src="assets/img/check.png" alt="check" />
+                  Terbentuk dari kumpulan bahan organik
                 </li>
                 <li>
-                  <img src="assets/img/check.png" alt="check" />Can stabilize
-                  the pH of nila biofloc pond water
+                  <img src="assets/img/check.png" alt="check" />
+                  Dapat menstabilkan pH air kolam bioflok nila
                 </li>
                 <li>
-                  <img src="assets/img/check.png" alt="check" />Lowers ammonia
-                  levels in water
+                  <img src="assets/img/check.png" alt="check" />
+                  Menurunkan tingkat amonia dalam air
                 </li>
               </ul>
-              <a href="#" class="btn">Get in Touch</a>
+              <a href="#" class="btn">Hubungi Kami</a>
             </div>
           </div>
           <div class="col-lg-6">
@@ -326,3 +314,4 @@
       </div>
     </section>
 @endsection
+v

@@ -9,25 +9,6 @@ use Illuminate\Support\Facades\Log;
 
 class OutcomeController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(StoreOutcomeRequest $request)
     {
         try {
@@ -49,35 +30,12 @@ class OutcomeController extends Controller
         }
     }
 
-    /**
-     * Display the specified resource.
-     */
-    public function show(Outcome $outcome)
+    public function destroy($id)
     {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(Outcome $outcome)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(UpdateOutcomeRequest $request, Outcome $outcome)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(Outcome $outcome)
-    {
-        //
+        {
+            $product = Outcome::findOrFail($id);
+            $product->delete();
+            return redirect()->route('list_outcome')->with('success', 'Outcome deleted successfully.');
+        }
     }
 }

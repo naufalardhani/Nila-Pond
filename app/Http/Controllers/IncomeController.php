@@ -9,25 +9,6 @@ use Illuminate\Support\Facades\Log;
 
 class IncomeController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(StoreIncomeRequest $request)
     {
         try {
@@ -49,34 +30,6 @@ class IncomeController extends Controller
             return redirect()->back()->with('error', $e->getMessage());
         }
     }
-
-    /**
-     * Display the specified resource.
-     */
-    public function show(Income $income)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(Income $income)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(UpdateIncomeRequest $request, Income $income)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
     public function destroy($id)
     {
         {

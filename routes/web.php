@@ -61,6 +61,7 @@ Route::prefix('/api')->group(function () {
         Route::post('/store-income', [IncomeController::class, 'store'])->name('store_income');
         Route::get('/destroy-income/{id}', [IncomeController::class, 'destroy'])->name('destroy_income');
         Route::post('/store-outcome', [OutcomeController::class, 'store'])->name('store_outcome');
+        Route::get('/destroy-outcome/{id}', [OutcomeController::class, 'destroy'])->name('destroy_outcome');
     });
 
 });

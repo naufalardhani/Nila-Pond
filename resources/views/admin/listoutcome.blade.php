@@ -41,7 +41,7 @@
                                 <td>
                                     <div class="row row-2">
                                         <div class="col-md-3">
-                                            <a href="{{ route('destroy_income', ['id' => $outcome->id]) }}" class="btn icon btn-danger"><i data-feather="trash"></i></a>
+                                            <a href="{{ route('destroy_outcome', ['id' => $outcome->id]) }}" class="btn icon btn-danger"><i data-feather="trash"></i></a>
                                         </div>
                                     </div>
                                 </td>
